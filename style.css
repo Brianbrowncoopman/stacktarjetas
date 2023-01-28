@@ -24,6 +24,10 @@ body {
   transition: transfor 0.5s ease-in-out;
 }
 
+.personas-container .persona:hover img {
+  transform: translateY(5px);
+}
+
 .personas-container .persona .name {
   position: absolute;
   background-color: black;
